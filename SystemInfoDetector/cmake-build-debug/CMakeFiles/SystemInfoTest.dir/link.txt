@@ -1,0 +1,3 @@
+"D:\myinstall\JetBrains\CLion 2017.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\SystemInfoTest.dir/objects.a
+C:\mingw64\bin\ar.exe cr CMakeFiles\SystemInfoTest.dir/objects.a @CMakeFiles\SystemInfoTest.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -g   -Wl,--whole-archive CMakeFiles\SystemInfoTest.dir/objects.a -Wl,--no-whole-archive  -o SystemInfoTest.exe -Wl,--out-implib,libSystemInfoTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\SystemInfoTest.dir\linklibs.rsp
